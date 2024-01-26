@@ -1,4 +1,4 @@
-//SceneName¿‡
+//SceneNameÁ±ª
 using System;
 using UnityEngine;
 

@@ -147,6 +147,7 @@ PlayerSettings:
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
   enableOpenGLProfilerGPURecorders: 1
+  allowHDRDisplaySupport: 0
   useHDRDisplay: 0
   hdrBitDepth: 0
   m_ColorGamuts: 00000000
@@ -319,6 +320,7 @@ PlayerSettings:
   switchSocketConcurrencyLimit: 14
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
+  switchEnableFileSystemTrace: 0
   switchUseGOLDLinker: 0
   switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
@@ -449,7 +451,6 @@ PlayerSettings:
   switchSocketBufferEfficiency: 4
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
-  switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
   switchUseLegacyFmodPriorities: 0
   switchUseMicroSleepForYield: 1
@@ -560,7 +561,20 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: DREAMTECK_SPLINES;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1
+    Android: TextMeshPro
+    EmbeddedLinux: TextMeshPro
+    GameCoreXboxOne: TextMeshPro
+    Nintendo Switch: TextMeshPro
+    PS4: TextMeshPro
+    PS5: TextMeshPro
+    QNX: TextMeshPro
+    Stadia: TextMeshPro
+    Standalone: DREAMTECK_SPLINES;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;TextMeshPro
+    VisionOS: TextMeshPro
+    WebGL: TextMeshPro
+    XboxOne: TextMeshPro
+    iPhone: TextMeshPro
+    tvOS: TextMeshPro
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
