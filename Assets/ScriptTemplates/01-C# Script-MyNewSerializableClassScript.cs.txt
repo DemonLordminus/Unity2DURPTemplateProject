@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+
+
+    #ROOTNAMESPACEBEGIN#
+[Serializable]
+public class #SCRIPTNAME#
+{
+   
+}
+#ROOTNAMESPACEEND#
